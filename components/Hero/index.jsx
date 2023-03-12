@@ -27,7 +27,7 @@ export default function Hero({
       <div className="buttons">
               <LightSpeed left>
                 <div className="button_wrapper">
-                    <span className="span">Info:</span> <hr />
+                    
               <Link href="https://discord.gg/vr5up7mW">
                       
                       <button class="button" id="lineExpand"><span class="button--text">Forum</span></button>
@@ -37,7 +37,7 @@ export default function Hero({
               </LightSpeed>
               <LightSpeed right>
                 <div className="button_wrapper">
-                <span className="span">Shop Now:</span> <hr />
+               
                       <Link href="https://store.yangmc.net/">
                       <button class="button" id="bubbleBorder2"><span class="button--text">Store</span></button>
                      
@@ -46,7 +46,7 @@ export default function Hero({
                       </LightSpeed>
               <LightSpeed right>
                 <div className="button_wrapper">
-                <span className="span">News:</span> <hr />
+                
                       <Link href="https://store.yangmc.net/">
                       <button class="button" id="bubbleBorder"><span class="button--text">Feed</span></button>
                      
