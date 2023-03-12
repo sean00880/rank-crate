@@ -32,7 +32,7 @@ export default function Header({ variant }) {
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
                 <Link className="cs-site_branding" href="/">
-                  <h2><span>Rank</span> & <span>Crate</span></h2>
+                  <h2><span>Infinite</span><span>Horizon</span></h2>
                 </Link>
               </Div>
               <Div className="cs-main_header_center">
