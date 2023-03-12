@@ -86,8 +86,8 @@ export default function Home() {
             </Div>
             <Div className="col-xl-5 offset-xl-1 col-lg-6">
               <SectionHeading
-                title="Highly experienced pepole with us"
-                subtitle="Why Choose Us"
+                title="Welcome to our Gaming Community: Join the Fun!"
+                subtitle="About Us"
               >
                 <Spacing lg="30" md="20" />
                 <p className="cs-m0">
