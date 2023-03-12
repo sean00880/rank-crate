@@ -16,7 +16,7 @@
   background: linear-gradient(180deg, black, transparent);
   max-width: 100%;
   height: 100vh;
-  justify-content: space-around;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: column;
 }
@@ -1055,6 +1055,32 @@ left: 8px;
 #bubbleBorder2:hover:after {
 height: 100%;
 
+}
+
+@media only screen and (max-width: 768px){
+  #bubbleBorder2 {
+    width: 12vh;
+  }
+
+  #bubbleBorder2 .button--text {
+  font-size: 14px;
+  }
+
+  #bubbleBorder {
+    width: 12vh;
+  }
+
+  #bubbleBorder .button--text {
+  font-size: 14px;
+  }
+
+  #lineExpand {
+    width: 12vh;
+  }
+
+  #lineExpand .button--text {
+  font-size: 14px;
+  }
 }
 
 
