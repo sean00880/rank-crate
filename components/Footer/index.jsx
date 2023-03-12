@@ -47,7 +47,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
               <Link className="cs-site_branding" href="/">
-                  <h2><span><span>Infinite</span><span>Horizon</span></span></h2>
+                  <h2><span>Horizon<span> </span><span>Infinite</span></span></h2>
                 </Link>
                 <SocialWidget />
               </Div>
