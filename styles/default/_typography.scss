@@ -55,13 +55,15 @@ h1 {
 h2 {
   font-size: 42px;
   color: white;
-  -webkit-text-stroke: 1px #e2a217;
+  
 }
 h2 span:nth-child(1){
-  color:rgb(233, 232, 232)
+  color:rgb(233, 232, 232);
+  -webkit-text-stroke: 1px #e2a217;
 }
 h2 span:nth-child(2){
-  color:rgb(38, 223, 198)
+  color:rgb(38, 223, 198);
+  -webkit-text-stroke: 1px #dadad3;
 }
 
 h3 {
