@@ -1139,8 +1139,27 @@ label {
       background: url(/images/lightning.jpg);
       background-size: cover;
       border-radius: inherit;
-      
-    }
+      -webkit-animation: flash ease-out 10s infinite;
+    -moz-animation: flash ease-out 10s infinite;
+    animation: flash ease-out 10s infinite;
+    animation-delay: 2s;
+    } 
+    @-webkit-keyframes flash {
+      0% { opacity: 1; } 
+      2% { opacity: 0; }
+      3% { opacity: 0.6; }
+      4% { opacity: 0.2; }
+      6% { opacity: 0.9; } 
+      100% { opacity: 1; }
+  }
+  @keyframes flash {
+      0% { opacity: 1; } 
+      2% { opacity: 0; }
+      3% { opacity: 0.6; }
+      4% { opacity: 0.2; }
+      6% { opacity: .9; } 
+      100% { opacity: 1; }
+  }
   }
   &.cs-size_md {
     padding-right: 20px;
