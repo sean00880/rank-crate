@@ -15,8 +15,19 @@ import TestimonialSlider from '../components/Slider/TestimonialSlider';
 import TimelineSlider from '../components/Slider/TimelineSlider';
 import Spacing from '../components/Spacing';
 import VideoModal from '../components/VideoModal';
+import Fade from 'react-reveal/Fade'
+import Zoom from 'react-reveal/Zoom'
+import React from 'react';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import config from 'react-reveal/globals';
+
+config({ ssrFadeout: true });
 
 export default function Home() {
+  React.useEffect(() => {
+    AOS.init();
+  }, []);
   // Hero Social Links
   const heroSocialLinks = [
     {
@@ -70,17 +81,24 @@ export default function Home() {
           <Div className="row">
             <Div className="col-xl-5 col-lg-6">
               <Div className="cs-image_layer cs-style1">
+                <Zoom ssrFadeout>
                 <Div className="cs-image_layer_in">
+                <Fade ssrFadeout left>
                   <img
                     src="/images/Hblack.png"
                     alt="About"
                     className="w-100 cs-radius_15"
                   />
+                   </Fade>
                 </Div>
+                </Zoom>
+               
               </Div>
               <Spacing lg="0" md="40" />
             </Div>
-            <Div className="col-xl-5 offset-xl-1 col-lg-6" data-aos="fade-left">
+            
+            <Div className="col-xl-5 offset-xl-1 col-lg-6">
+            <Fade right ssrFadeout delay={1000}>
               <SectionHeading
                 title="Welcome to our Gaming Community: Join the Fun!"
                 subtitle="About Us"
@@ -97,7 +115,9 @@ export default function Home() {
                 <Div className="cs-separator cs-accent_bg"></Div>
                 <Spacing lg="25" md="0" />
               </SectionHeading>
+              </Fade>
             </Div>
+           
           </Div>
         </Div>
         {/* Start CTA Section */}
