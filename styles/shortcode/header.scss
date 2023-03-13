@@ -53,6 +53,7 @@
 
   .cs-icon_btn {
     display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 45px;
@@ -724,6 +725,7 @@
   .cs-site_header.cs-style1 .cs-icon_btn {
     width: 38px;
     height: 38px;
+    display: none;
   }
   .cs-toolbox,
   .cs-side_header {
