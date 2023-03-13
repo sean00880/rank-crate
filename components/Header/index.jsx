@@ -5,6 +5,7 @@ import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import Div from '../Div';
 import DropDown from './DropDown';
 import Link from 'next/link';
+import Flip from 'react-reveal/Flip'
 
 export default function Header({ variant }) {
   const [isSticky, setIsSticky] = useState(false);
@@ -31,9 +32,11 @@ export default function Header({ variant }) {
           <Div className="container">
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
+                <Flip top>
                 <Link className="cs-site_branding" href="/">
                   <h2><span>Horizon</span> <span>Infinite</span></h2>
                 </Link>
+                </Flip>
               </Div>
               <Div className="cs-main_header_center">
                 <Div className="cs-nav cs-primary_font cs-medium">
@@ -80,6 +83,7 @@ export default function Header({ variant }) {
                   </span>
                 </Div>
               </Div>
+              
             </Div>
           </Div>
         </Div>

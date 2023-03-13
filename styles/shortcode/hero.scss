@@ -4,7 +4,7 @@
 }
 
 .cs-hero{
-  background-image: url(/images/hero_bg.jpeg);
+  background-image: url(/images/sky.jpg);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -622,12 +622,14 @@
       align-items: flex-start;
     }
     .cs-hero_title {
-      font-size: 56px;
+      font-size: 35px;
       margin-bottom: 20px;
+      text-align: center;
     }
     .cs-hero_subtitle {
       margin-bottom: 24px;
       max-width: 500px;
+      text-align: center;
     }
     .cs-hero_info > div {
       width: 100%;
@@ -668,7 +670,8 @@
 @media screen and (max-width: 575px) {
   .cs-hero.cs-style1 {
     .cs-hero_title {
-      font-size: 42px;
+      font-size: 29px;
+    text-align: center;
       br {
         display: none;
       }
@@ -752,9 +755,9 @@
 }
 #lineExpand {
   position: relative;
-  background: linear-gradient(45deg, #8d5279,rgba(214, 114, 31, 0.8));
-  color: #8dddea;
-  border: 3px solid #8dddea;
+  background: linear-gradient(45deg, #ffffff, rgb(232 226 255 / 80%));
+    color: #60335a;
+  border: 3px solid #c4c641;
   transition: .4s ease-out;
   overflow: hidden;
   width: 17vh;
@@ -763,7 +766,7 @@
   border-radius: 3px;
   cursor: pointer;
   justify-content: center;
-  font-family: 'Facon';
+  font-family:"Facon";
 }
 
 .button_wrapper:nth-child(1) .span{
@@ -786,7 +789,7 @@
   z-index: 0;
   width: 100%;
   height: 0px;
-  border: 2px solid #1e2122b5;
+  border: 2px solid #f2f4f5b5;
   background-color: #ebe9e9;
   transition: .4s ease-out;
   background-image: url(/images/discord_logo2.png);
@@ -820,18 +823,21 @@
 }
 
 #lineExpand:hover .button--text {
-  color: #263e69;
-  -webkit-text-stroke: 1px #8dddea;
+
   -moz-transform: translateX(30%);
   -webkit-transform: translateX(30%);
   transform: translateX(30%);
   /* Apply animation to this element */
   -moz-animation: 10s linear infinite;
   -webkit-animation: 10s linear infinite;
+  color: #322f32;
+  -webkit-text-stroke: 1px #6b7071;
+  transform: translateX(30%);
   animation: 10s linear infinite;
   position: relative;
   z-index: 10;
   font-style: italic;
+  left: 8px;
 }
 
 #lineExpand:hover:after {
@@ -843,8 +849,7 @@
 #bubbleBorder {
   position: relative;
   background: linear-gradient(45deg, #dddddd, rgb(249 189 145 / 80%));
-  font-family: 'Facon';
-  color: #181616;
+  color: #252525;
   border: 3px solid #535353;
   transition: 0.4s ease-out;
   overflow: hidden;
@@ -854,6 +859,7 @@
   border-radius: 3px;
   cursor: pointer;
   justify-content: center;
+  font-family:"Facon";
 }
 
 
@@ -876,7 +882,7 @@
   border: 2px solid #f7f5f5c2;
   background-color: #1b1a1a;
   transition: .4s ease-out;
-  background-image: url(/images/minecraft.png);
+  background-image: url(/images/discord_logo.jpg);
   background-position-y: 50%;
   background-position-x: center;
   background-size: cover;
@@ -979,6 +985,7 @@
   cursor: pointer;
   justify-content: center;
   font-family: 'Facon';
+  top: 9vh;
 }
 
 
@@ -987,6 +994,7 @@
 position: relative;
 z-index: 3;
 font-size: 23px;
+-webkit-text-stroke: .1px yellow;
 }
 
 #bubbleBorder2:after {
@@ -999,7 +1007,7 @@ z-index: 0;
 width: 100%;
 height: 0px;
 border: 2px solid #000000c2;
-background-color: #ebe9e9;
+background-color: #1d1c1c;
 transition: .4s ease-out;
 background-image: url(/images/minecraft.png);
 background-position-y: 50%;
@@ -1010,7 +1018,7 @@ background-repeat: no-repeat;
 
 #bubbleBorder2:hover {
 color: rgb(26, 24, 24);
-background-color: rgb(236, 230, 230);
+background-color: rgb(29, 28, 28);
 border-color: transparent;
 
 }
@@ -1032,7 +1040,7 @@ opacity: .4;
 }
 
 #bubbleBorder2:hover .button--text {
-color: #2d2a2a;
+color: #dbd9d9;
 -moz-transform: translateX(30%);
 -webkit-transform: translateX(30%);
 transform: translateX(30%);

@@ -4,6 +4,7 @@ import Div from '../Div';
 import VerticalLinks from '../VerticalLinks';
 import LightSpeed from 'react-reveal/LightSpeed'
 import Link from 'next/link';
+import Flip from 'react-reveal/Flip'
 
 export default function Hero({
   title,
@@ -28,26 +29,26 @@ export default function Hero({
               <LightSpeed left>
                 <div className="button_wrapper">
                     
-              <Link href="https://discord.gg/vr5up7mW">
+              <Link href="#">
                       
-                      <button class="button" id="lineExpand"><span class="button--text">Forum</span></button>
+                      <button class="button" id="lineExpand" data-aos="fade-left"><span class="button--text">Forum</span></button>
   
                       </Link>
               </div>
               </LightSpeed>
-              <LightSpeed right>
+              <Flip bottom>
                 <div className="button_wrapper">
                
-                      <Link href="https://store.yangmc.net/">
+                      <Link href="#">
                       <button class="button" id="bubbleBorder2"><span class="button--text">Store</span></button>
                      
                       </Link>
                       </div>
-                      </LightSpeed>
+                      </Flip >
               <LightSpeed right>
                 <div className="button_wrapper">
                 
-                      <Link href="https://store.yangmc.net/">
+                      <Link href="#">
                       <button class="button" id="bubbleBorder"><span class="button--text">Feed</span></button>
                      
                       </Link>

@@ -20,11 +20,7 @@ export default function Home() {
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Behance',
-      links: '/',
-    },
-    {
-      name: 'Twitter',
+      name: 'Reddit',
       links: '/',
     },
   ];
@@ -84,7 +80,7 @@ export default function Home() {
               </Div>
               <Spacing lg="0" md="40" />
             </Div>
-            <Div className="col-xl-5 offset-xl-1 col-lg-6">
+            <Div className="col-xl-5 offset-xl-1 col-lg-6" data-aos="fade-left">
               <SectionHeading
                 title="Welcome to our Gaming Community: Join the Fun!"
                 subtitle="About Us"
@@ -107,8 +103,8 @@ export default function Home() {
         {/* Start CTA Section */}
         <Div className="container">
           <Cta
-            title="Let’s disscuse make <br />something <i>cool</i> together"
-            btnText="Apply For Meeting"
+            title="Let’s discuss"
+            btnText="Contact Our Team"
             btnLink="/contact"
             bgSrc="/images/cta_bg.jpeg"
           />
