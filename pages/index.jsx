@@ -68,7 +68,7 @@ export default function Home() {
         <Hero
           title="Explore Our Server Ranks and Rewards"
           subtitle="Join Our Gaming Community and Unlock Exclusive Benefits with Our Server Ranks!"
-          btnText="Get a Quote"
+          btnText="Join Discord"
           btnLink="/contact"
           scrollDownId="#service"
           socialLinksHeading="Follow Us"
