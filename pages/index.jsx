@@ -66,7 +66,7 @@ export default function Home() {
         />
         {/* End Hero Section */}
         <Spacing lg="100" md="80" />
-        <Div className="container">
+        <Div className="container" id="#about">
           <Div className="row">
             <Div className="col-xl-5 col-lg-6">
               <Div className="cs-image_layer cs-style1">

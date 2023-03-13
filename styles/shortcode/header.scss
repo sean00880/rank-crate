@@ -303,6 +303,10 @@
 .cs-sticky_header_active {
   top: 0px;
   background-color: #000;
+  height: 16vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 // .cs-gescout_show {

@@ -47,6 +47,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
               <Link className="cs-site_branding" href="/">
+              <img src="/images/Hblack.png" style={{ "maxHeight":"13vh", "maxWidth":"13vh", "top":"1vh","position":"relative"}} alt="" />
                   <h2><span>Horizon<span> </span><span>Infinite</span></span></h2>
                 </Link>
                 <SocialWidget />
