@@ -72,7 +72,7 @@ export default function Home() {
               <Div className="cs-image_layer cs-style1">
                 <Div className="cs-image_layer_in">
                   <img
-                    src="/images/about_img_4.jpeg"
+                    src="/images/Hblack.png"
                     alt="About"
                     className="w-100 cs-radius_15"
                   />

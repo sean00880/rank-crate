@@ -34,9 +34,9 @@ export default function Header({ variant }) {
               <Div className="cs-main_header_left">
                 <Flip top>
                 <Link className="cs-site_branding" href="/">
-                  <div style={{"display":"flex","flexDirection":"column","justifyContent":"center", "alignItems":"center", "top":"2vh","position":"relative", "maxHeight":"16vh"}}>
-                    <img src="/images/Hblack.png" style={{ "maxHeight":"13vh", "maxWidth":"13vh", "top":"1vh","position":"relative"}} alt="" />
-                  <h2 style={{"bottom":"2vh","position":"relative", "fontSize":"34px"}}><span>Horizon</span> <span>Infinite</span></h2>
+                  <div style={{"display":"flex","flexDirection":"column","justifyContent":"center", "alignItems":"center", "position":"relative"}}>
+                   
+                  <h2 style={{ "fontSize":"34px"}}><span>Horizon</span> <span>Infinite</span></h2>
                   </div>
                 </Link>
                 </Flip>

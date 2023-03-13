@@ -38,11 +38,16 @@ export default function Hero({
               </LightSpeed>
               <Flip bottom>
                 <div className="button_wrapper">
-               
-                      <Link href="#">
+
+                <div style={{"display":"flex","flexDirection":"column","justifyContent":"center", "alignItems":"center", "top":"2vh","position":"relative"}}>
+                    <img src="/images/Hblack.png" style={{ "maxHeight":"13vh", "maxWidth":"13vh","position":"relative"}} alt="" />
+                    <Link href="#">
                       <button class="button" id="bubbleBorder2"><span class="button--text">Store</span></button>
                      
                       </Link>
+                  </div>
+               
+                      
                       </div>
                       </Flip >
               <LightSpeed right>
