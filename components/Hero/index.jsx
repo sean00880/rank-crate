@@ -41,7 +41,7 @@ export default function Hero({
 
                 <div style={{"display":"flex","flexDirection":"column","justifyContent":"center", "alignItems":"center", "top":"2vh","position":"relative"}}>
                     <img src="/images/Hblack.png" style={{ "maxHeight":"13vh", "maxWidth":"13vh","position":"relative"}} alt="" />
-                    <Link href="#">
+                    <Link href="https://horizoninfinite.craftingstore.net/category/379410">
                       <button class="button" id="bubbleBorder2"><span class="button--text">Store</span></button>
                      
                       </Link>
